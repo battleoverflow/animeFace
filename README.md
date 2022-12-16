@@ -8,7 +8,7 @@ You can install this extension under the VS code Extensions tab by searching "an
 
 ## Example
 
-<img src="assets/usage_compressed.gif" alt="Example of the aniFace extension" width="70%" />
+<img src="assets/usage.png" alt="Example of the aniFace extension" />
 
 <br />
 
