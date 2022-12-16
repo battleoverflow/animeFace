@@ -1,0 +1,41 @@
+/*
+    Owner: Hifumi1337 (https://github.com/hifumi1337)
+    Project: aniFace
+    License: BSD 2-Clause
+*/
+
+body,
+html {
+    background-color: transparent;
+}
+
+section {
+    max-height: 100vh;
+    font-family: "Muli", sans-serif;
+    font-size: 0.8rem;
+    background-color: transparent;
+    display: grid;
+    place-items: left;
+}
+
+section img {
+    object-fit: contain;
+}
+
+h2 {
+    color: lightgrey;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2.error {
+    color: rgb(176, 7, 41);
+}
+
+h2.warning {
+    color: rgb(212, 255, 0);
+}
+
+h2.info {
+    color: #fff;
+}

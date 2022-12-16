@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# aniFace
+out/
+dist/
+*.vscode/
+node_modules/
+.vscode-test/
+*.vsix
