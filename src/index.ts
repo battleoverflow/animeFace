@@ -1,12 +1,5 @@
-// A lot of the code used to make this extension is from the following repos:
-// https://github.com/phindle/error-lens/blob/master/src/extension.ts
-// https://github.com/microsoft/vscode-extension-samples/tree/main/webview-sample
-// https://github.com/microsoft/vscode-extension-samples/tree/main/webview-view-sample
-// https://code.visualstudio.com/api/extension-guides/webview
-// and more that I can't find anymore
-
 /*
-    Owner: Hifumi1337 (https://github.com/hifumi1337)
+    Owner: azazelm3dj3d (https://github.com/azazelm3dj3d)
     Project: aniFace
     License: BSD 2-Clause
 */

@@ -3,12 +3,12 @@
     "displayName": "aniFace",
     "description": "aniFace is a VS Code extension that judges you for the the number of errors and warnings within your codebase",
     "version": "1.0.3",
-    "publisher": "Hifumi1337",
-    "homepage": "https://github.com/hifumi1337/aniFace",
+    "publisher": "azazelm3dj3d",
+    "homepage": "https://github.com/azazelm3dj3d/aniFace",
     "license": "BSD-2-Clause",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hifumi1337/aniFace"
+        "url": "https://github.com/azazelm3dj3d/aniFace"
     },
     "engines": {
         "vscode": "^1.61.0"
@@ -31,7 +31,7 @@
         "anime"
     ],
     "__metadata": {
-        "publisherDisplayName": "Hifumi1337"
+        "publisherDisplayName": "azazelm3dj3d"
     },
     "activationEvents": [
         "onCommand:aniface.openview.focus",

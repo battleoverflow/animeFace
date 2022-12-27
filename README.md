@@ -4,7 +4,7 @@
 
 aniFace is a simple VS Code extension created to be a cute visualization for tracking errors, warnings, and informational diagnostics while coding.
 
-You can install this extension under the VS code Extensions tab by searching "aniface" or by visting my [publisher page](https://marketplace.visualstudio.com/publishers/hifumi1337).
+You can install this extension under the VS code Extensions tab by searching "aniface" or by visiting my [publisher page](https://marketplace.visualstudio.com/publishers/azazelm3dj3d).
 
 ## Example
 
