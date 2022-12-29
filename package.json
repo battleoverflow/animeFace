@@ -2,7 +2,7 @@
     "name": "aniface",
     "displayName": "aniFace",
     "description": "aniFace is a VS Code extension that judges you for the the number of errors and warnings within your codebase",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "azazelm3dj3d",
     "homepage": "https://github.com/azazelm3dj3d/aniFace",
     "license": "BSD-2-Clause",
