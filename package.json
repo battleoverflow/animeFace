@@ -6,6 +6,20 @@
     "publisher": "azazelm3dj3d",
     "homepage": "https://github.com/azazelm3dj3d/aniFace",
     "license": "BSD-2-Clause",
+    "author": {
+        "name": "azazelm3dj3d",
+        "url": "https://github.com/azazelm3dj3d"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/azazelm3dj3d/"
+        },
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/azazelm3dj3d"
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/azazelm3dj3d/aniFace"
