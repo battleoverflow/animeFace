@@ -103,7 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-# aniFace
+# animeFace
 out/
 dist/
 node_modules/

@@ -1,6 +1,6 @@
 /*
-    Owner: azazelm3dj3d (https://github.com/azazelm3dj3d)
-    Project: aniFace
+    Owner: battleoverflow (https://github.com/battleoverflow)
+    Project: animeFace
     License: BSD 2-Clause
 */
 
@@ -161,7 +161,7 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 class CustomSidebarViewProvider implements vscode.WebviewViewProvider {
-    public static readonly viewType = "aniface.openview"
+    public static readonly viewType = "animeface.openview"
 
     private _view?: vscode.WebviewView
 
@@ -183,7 +183,7 @@ class CustomSidebarViewProvider implements vscode.WebviewViewProvider {
         // default webview will show ani0
         webviewView.webview.html = this.getHtmlContent(webviewView.webview, "0")
 
-        // Interval for deciding which aniFace is displayed (runs every second)
+        // Interval for deciding which animeFace is displayed (runs every second)
         setInterval(() => {
             const errors = getNumErrors()
             let i = "0"
@@ -206,15 +206,15 @@ class CustomSidebarViewProvider implements vscode.WebviewViewProvider {
             )
         )
 
-        const aniFace = webview.asWebviewUri(
+        const animeFace = webview.asWebviewUri(
             vscode.Uri.joinPath(this._extensionUri, "assets", `ani${i}.png`)
         )
 
-        return getHtml(aniFace, stylesheetUri)
+        return getHtml(animeFace, stylesheetUri)
     }
 }
 
-function getHtml(aniFace: vscode.Uri, stylesheetUri: vscode.Uri) {
+function getHtml(animeFace: vscode.Uri, stylesheetUri: vscode.Uri) {
     const errorNum = getNumErrors()
     const warningNum = getNumWarnings()
     const infoNum = getInfo()
@@ -227,7 +227,7 @@ function getHtml(aniFace: vscode.Uri, stylesheetUri: vscode.Uri) {
       </head>
       <body>
         <section>
-          <img src="${aniFace}">
+          <img src="${animeFace}">
           <h2 class=${errorNum ? "error" : ""}>
             ${errorNum} ${errorNum === 1 ? "error" : "errors"}
           </h2>

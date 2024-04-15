@@ -1,28 +1,28 @@
 {
-    "name": "aniface",
-    "displayName": "aniFace",
-    "description": "aniFace is a VS Code extension that judges you for the the number of errors and warnings within your codebase",
+    "name": "animeface",
+    "displayName": "animeFace",
+    "description": "animeFace is a VS Code extension that judges you for the the number of errors and warnings within your codebase",
     "version": "1.0.4",
-    "publisher": "azazelm3dj3d",
-    "homepage": "https://github.com/azazelm3dj3d/aniFace",
+    "publisher": "battleoverflow",
+    "homepage": "https://github.com/battleoverflow/animeFace",
     "license": "BSD-2-Clause",
     "author": {
-        "name": "azazelm3dj3d",
-        "url": "https://github.com/azazelm3dj3d"
+        "name": "battleoverflow",
+        "url": "https://github.com/battleoverflow"
     },
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/azazelm3dj3d/"
+            "url": "https://github.com/sponsors/battleoverflow/"
         },
         {
             "type": "patreon",
-            "url": "https://www.patreon.com/azazelm3dj3d"
+            "url": "https://www.patreon.com/battleoverflow"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/azazelm3dj3d/aniFace"
+        "url": "https://github.com/battleoverflow/animeFace"
     },
     "engines": {
         "vscode": "^1.61.0"
@@ -37,7 +37,7 @@
     },
     "keywords": [
         "visualization",
-        "aniface",
+        "animeface",
         "face",
         "errors",
         "error lens",
@@ -45,11 +45,11 @@
         "anime"
     ],
     "__metadata": {
-        "publisherDisplayName": "azazelm3dj3d"
+        "publisherDisplayName": "battleoverflow"
     },
     "activationEvents": [
-        "onCommand:aniface.openview.focus",
-        "onView:aniface.openview"
+        "onCommand:animeface.openview.focus",
+        "onView:animeface.openview"
     ],
     "main": "./out/index.js",
     "contributes": {
@@ -57,7 +57,7 @@
             "activitybar": [
                 {
                     "id": "custom-activitybar",
-                    "title": "aniFace",
+                    "title": "animeFace",
                     "icon": "assets/logo.svg"
                 }
             ]
@@ -66,16 +66,16 @@
             "custom-activitybar": [
                 {
                     "type": "webview",
-                    "id": "aniface.openview",
-                    "name": "aniFace",
-                    "contextualTitle": "aniFace"
+                    "id": "animeface.openview",
+                    "name": "animeFace",
+                    "contextualTitle": "animeFace"
                 }
             ]
         },
         "commands": [
             {
-                "command": "aniface.openview.focus",
-                "category": "aniFace",
+                "command": "animeface.openview.focus",
+                "category": "animeFace",
                 "title": "Open Sidebar",
                 "icon": "$(clear-all)"
             }
